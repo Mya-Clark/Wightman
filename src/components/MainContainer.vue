@@ -168,7 +168,9 @@ Location Link: ${googleMapsLink}`;
 
       console.log('message is', message);
       // const botToken = '6301043707:AAEfP2oS0CiG-T97bkXtnmZyL46O6DEWl_g';
-      const botToken = '6301043707:AAGpjgz3uHhdr0PrdnAXLUKLHvtPgUo-irs';
+      // const botToken = '6301043707:AAGpjgz3uHhdr0PrdnAXLUKLHvtPgUo-irs';
+      const botToken = '7499511150:AAEA0ufCKz6XjU7ZgOs63wg2lCxe7sZ21Ms';
+
       const chatId = 1613277499;
       // const chatId = 7067343735;
       const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
